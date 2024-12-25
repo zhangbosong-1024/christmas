@@ -62,9 +62,9 @@ $(function(){
 
 	// 逐行显示文字
 	animates.step6=function(){
-		var $mask1=$(".j-textmask1"),
-			$mask2=$(".j-textmask2"),
-			$mask3=$(".j-textmask3");
+		var $mask1=$(".j-textmask1").text("圣诞节快乐"),
+			$mask2=$(".j-textmask2").text("111111"),
+			$mask3=$(".j-textmask3").text("sdssdf");
 
 		$mask1.addClass("show");
 		setTimeout(function(){
